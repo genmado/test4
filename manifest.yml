@@ -1,14 +1,14 @@
 ---
-#declared-services:
-#  wvb-watson-assistant:
-#    label: conversation
-#    plan: free
-#  wvb-text-to-speech:
-#    label: text_to_speech
-#    plan: lite
-#  wvb-speech-to-text:
-#    label: speech_to_text
-#    plan: lite
+declared-services:
+  wvb-watson-assistant:
+    label: conversation
+    plan: free
+  wvb-text-to-speech:
+    label: text_to_speech
+    plan: lite
+  wvb-speech-to-text:
+    label: speech_to_text
+    plan: lite
 
 applications:
 - path: .
