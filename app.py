@@ -126,7 +126,7 @@ if __name__ == "__main__":
     # SDK is currently confused. Only sees 'conversation' for CloudFoundry.
     #authenticator = (get_authenticator_from_environment('assistant') or
     #                 get_authenticator_from_environment('conversation'))
-    authenticator = IAMAuthenticator('YvLSljdlLmxQNoh1OUXluPe7Z1o-9YfzBuEP33LnucWA')
+    authenticator = IAMAuthenticator('4WDcBZjc8BoExiNOb1u6TaPPP64ZxhMGyeEX2ca4j7g4')
     assistant = AssistantV1(version="2019-11-06", authenticator=authenticator)
     workspace_id = assistant_setup.init_skill(assistant)
     socketio.run(app, host='0.0.0.0', port=int(port))
